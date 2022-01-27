@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic"
   },
   "eslintConfig": {
     "extends": [
@@ -69,6 +70,7 @@
     "@storybook/react": "^6.4.0",
     "@storybook/testing-library": "^0.0.7",
     "@storybook/testing-react": "^1.0.0",
+    "chromatic": "^6.4.1",
     "react-redux": "^7.2.6",
     "react-test-renderer": "^17.0.2"
   }
