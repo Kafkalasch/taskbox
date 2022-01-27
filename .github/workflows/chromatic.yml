@@ -9,6 +9,7 @@ jobs:
   test:
     # Operating System
     runs-on: ubuntu-latest
+    environment: test
     # Job steps
     steps:
       - uses: actions/checkout@v1
